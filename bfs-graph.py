@@ -42,7 +42,7 @@ class Graph:
         # Mark all the vertices as not visited
         visited = [False]*V
 
-        # Callingthe BFS function
+        # Calling the BFS function
         self.BFSFun(u, visited)
 
         # Find DFS from the 0th vertex an traverse through the complete graph,
