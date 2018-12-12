@@ -20,7 +20,7 @@ class Graph:
         visited[u] = True
         print(u,)
 
-        # Using recusrsion to go through the graph and call the function if not visited vertex comes
+        # Using recursion to go through the graph and call the function if not visited vertex comes
         for i in self.graph[u]:
             if visited[i] == False:
                 self.DFSFun(i, visited)
@@ -33,7 +33,8 @@ class Graph:
         # Find DFS from a given vertex
         self.DFSFun(u, visited)
 
-        # Find DFS from the 0th vertex an traverse through the complete graph, coomment the above line and uncomment the below lines
+        # Find DFS from the 0th vertex an traverse through the complete graph, 
+        # comment the above line and uncomment the below lines
         # for i in range(V):
         #     if visited[i] == False:
         #         self.DFSFun(i, visited)
