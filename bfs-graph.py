@@ -35,17 +35,17 @@ class Graph:
 
     # function to add an edge to graph
     def BFS(self, u):
-        
+
         # Get the number of graph vertices
         V = len(self.graph)
 
         # Mark all the vertices as not visited
         visited = [False]*V
 
-        #Callingthe BFS function
+        # Callingthe BFS function
         self.BFSFun(u, visited)
 
-        # Find DFS from the 0th vertex an traverse through the complete graph, 
+        # Find DFS from the 0th vertex an traverse through the complete graph,
         # comment the above line and uncomment the below lines
         # for i in range(V):
         #     if visited[i] == False:
